@@ -197,6 +197,9 @@ div.gallery {
        #highlight h1{
            font-size: 1.2rem;
        }
+      .mx-3{
+          margin:0px !important;
+      }
   }
   body{
     background: linear-gradient(to bottom, #0f2f3a 0%, #763757 100%);
