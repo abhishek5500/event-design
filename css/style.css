@@ -197,7 +197,7 @@ div.gallery {
        #highlight h1{
            font-size: 1.2rem;
        }
-      .mx-3{
+      .mbt{
           margin:0px !important;
       }
   }
@@ -205,6 +205,9 @@ div.gallery {
     background: linear-gradient(to bottom, #0f2f3a 0%, #763757 100%);
     
   }
+.mbt{
+    margin:0 1rem;
+}
 /* form  */
 .modal-content{
     background: linear-gradient(to bottom, #0f2f3a 0%, #763757 100%) !important;
