@@ -55,7 +55,7 @@
 }
 
 /* highlight  */
-#highlight{
+.highlight{
     color:white;
     display: flex;
     flex-direction: column;
@@ -65,10 +65,10 @@
     align-items: center;
 }
 
-#highlight h1{
+.highlight h1{
     border: 2px solid white;
     border-radius: 19px;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 4px 16px;
     color: white;
     text-align: center;
@@ -76,7 +76,7 @@
     background: #2e0e0e;
 }
 
-#highlight p{
+.highlight p{
     color: white;
     text-align: center;
     font-size: 1.5rem;
@@ -152,7 +152,7 @@ div.gallery {
      margin: 6px 50px;
     }
     .btns{
-        font-size: 16px;
+        font-size: 15px;
     }
     #home h1{
         font-size: 2rem;
@@ -160,10 +160,10 @@ div.gallery {
     #home p{
         font-size: 0.8rem;
     }
-    #highlight h1{
+    .highlight h1{
         font-size: 1.8rem;
     }
-    #highlight{
+    .highlight{
         padding: 0;
     }
   }
@@ -171,6 +171,9 @@ div.gallery {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
+    }
+    .btns{
+        font-size: 14px;
     }
   }
   
@@ -184,6 +187,7 @@ div.gallery {
        }
        .btns{
            font-size: 14px;
+           margin: 3px;
        }
        #home{
         padding: 0;
@@ -197,11 +201,22 @@ div.gallery {
        #highlight h1{
            font-size: 1.2rem;
        }
+ 
   }
   body{
     background: linear-gradient(to bottom, #0f2f3a 0%, #763757 100%);
     
   }
+.mbt{
+    margin:0 5px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #521414;
+    margin: 12px;
+    border: 3px solid #198754;
+    border-radius: 17px;
+}
 /* form  */
 .modal-content{
     background: linear-gradient(to bottom, #0f2f3a 0%, #763757 100%) !important;
