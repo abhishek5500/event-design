@@ -201,13 +201,7 @@ div.gallery {
        #highlight h1{
            font-size: 1.2rem;
        }
-<<<<<<< HEAD
- 
-=======
-      .mbt{
-          margin:0px !important;
-      }
->>>>>>> 8ac2067450ee9cea401105ade764463adda11f15
+
   }
   body{
     background: linear-gradient(to bottom, #0f2f3a 0%, #763757 100%);
@@ -216,7 +210,6 @@ div.gallery {
 .mbt{
     margin:0 5px;
 }
-<<<<<<< HEAD
 .btn-success {
     color: #fff;
     background-color: #521414;
@@ -224,8 +217,6 @@ div.gallery {
     border: 3px solid #198754;
     border-radius: 17px;
 }
-=======
->>>>>>> 8ac2067450ee9cea401105ade764463adda11f15
 /* form  */
 .modal-content{
     background: linear-gradient(to bottom, #0f2f3a 0%, #763757 100%) !important;
